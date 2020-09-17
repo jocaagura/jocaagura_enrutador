@@ -1,3 +1,8 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.2] - Mejoras en la documentacion
+* Se agrega una version de control en github
+* Mejoras en la documentación
+*
 
-* TODO: Describe initial release.
+
+## [0.0.1] - Primera entrega
+* Versión inicial

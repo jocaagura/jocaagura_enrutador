@@ -1,8 +1,7 @@
 name: jocaagura_enrutador
 description: Paquete de prueba para el enrutamiento con transiciones personalizadas entre las diferentes pantallas de la aplicación.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.2
+homepage: https://jocaagura.com
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
