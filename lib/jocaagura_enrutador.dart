@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+
 /// Enlista las animaciones disponibles para la clase JocaaguraEnrutador que puede seleccionar el usuario
 enum AnimationType { normal, fadeIn }
+
 /// JocaaguraEnrutador es la clase principal que maneja como agregar al Stack y las transiciones de navegación
 class JocaaguraEnrutador {
   final BuildContext context;
@@ -8,7 +10,8 @@ class JocaaguraEnrutador {
   final AnimationType animation;
   final Duration duracion;
   final bool replacement;
-///Constructor de la clase
+
+  ///Constructor de la clase
   ///si no se agrega una animación de [animation] se usa por defecto la animacion de desvanecimiento rapido
   ///Si se setea el [replacement] en true la vista actual es destruida para dar paso a la nueva vista [child]
   ///Se recomienda que la [duracion] NO supere los 1000ms o sea inferior a 500ms
@@ -21,7 +24,7 @@ class JocaaguraEnrutador {
     switch (this.animation) {
 
       /// Casos de uso de los enrutadores
-    /// [fadeIn] llama la funcion para la animacion de desvanecimiento
+      /// [fadeIn] llama la funcion para la animacion de desvanecimiento
       case AnimationType.fadeIn:
         _fadeInTransition();
         break;
@@ -44,7 +47,8 @@ class JocaaguraEnrutador {
         break;
     }
   }
-/// Transición de desvanecimiento
+
+  /// Transición de desvanecimiento
   void _fadeInTransition() {
     final route = PageRouteBuilder(
       pageBuilder: (context, animation, secondaryAnimation) {
