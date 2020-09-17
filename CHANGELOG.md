@@ -1,3 +1,6 @@
+## [0.0.4] - Mejoras en la documentacion
+* Formateamos el archivo del paquete de acuerdo a las especificaciones de flutter
+
 ## [0.0.3] - Mejoras en la documentacion
 * Se agrega un ejemplo
 
